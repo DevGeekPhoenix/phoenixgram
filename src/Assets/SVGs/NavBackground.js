@@ -4,15 +4,14 @@ export default () => {
   return (
     <svg
       width="110vw"
-      height="140px"
-      viewBox="25 -25 380 81"
+      viewBox="25 0 380 81"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
       <g filter="url(#filter0_b_17_637)">
         <path
           d="M0.157684 0.124298H110.692H137.443V0.124298C148.044 0.124298 156.264 9.71096 157.346 20.2566C159.163 37.9535 167.498 60.9083 198.514 60.9083C230.728 60.9083 238.064 36.1476 239.156 18.2329C239.733 8.76454 247.072 0.124298 256.558 0.124298V0.124298H296.431H393.843V40.5022C393.843 68.3774 371.245 90.9747 343.37 90.9747H197H50.6302C22.755 90.9747 0.157684 68.3774 0.157684 40.5022V0.124298Z"
-          fill="#0d99ff"
+          fill="#8698d3"
           fillOpacity="0.6"
         />
         <path
@@ -55,7 +54,7 @@ export default () => {
         >
           <stop stopOpacity="0.15" />
           <stop offset="0.659575" stopOpacity="0.1" />
-          <stop offset="1" stopOpacity="0" />
+          <stop offset="1" stopOpacity="0.5" />
         </linearGradient>
       </defs>
     </svg>

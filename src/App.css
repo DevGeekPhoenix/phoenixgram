@@ -1,0 +1,30 @@
+@font-face {
+  font-family: md;
+  src: url(./Assets/Fonts/Poppins-Medium.ttf);
+}
+
+@font-face {
+  font-family: bold;
+  src: url(./Assets/Fonts/Poppins-Bold.ttf);
+}
+
+@font-face {
+  font-family: xs;
+  src: url(./Assets/Fonts/Poppins-ExtraLight.ttf);
+}
+
+body {
+  font-family: md;
+}
+
+.md {
+  font-family: md;
+}
+
+.xs {
+  font-family: xs;
+}
+
+.bold {
+  font-family: bold;
+}

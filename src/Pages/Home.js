@@ -1,5 +1,9 @@
-import React from "react";
+import MobileHome from "../Components/Mobile/MobileHome";
 
 export default function Home() {
-  return <div>Home</div>;
+  return (
+    <div className="mt-[-20px]">
+      <MobileHome />
+    </div>
+  );
 }

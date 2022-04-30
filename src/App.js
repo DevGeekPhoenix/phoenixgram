@@ -7,7 +7,6 @@ import SignUp from "./Pages/SignUp";
 import SignIn from "./Pages/SignIn";
 import PagesLayout from "./Components/PagesLayout";
 import NewPost from "./Pages/NewPost";
-import Massages from "./Pages/Massages";
 import "./App.css";
 
 function App() {
@@ -21,7 +20,6 @@ function App() {
             <Route path="/activities" element={<Activities />} />
             <Route path="/profile" element={<Profile />} />
             <Route path="/newpost" element={<NewPost />} />
-            <Route path="/massages" element={<Massages />} />
           </Route>
           <Route path="signup" element={<SignUp />} />
           <Route path="signin" element={<SignIn />} />

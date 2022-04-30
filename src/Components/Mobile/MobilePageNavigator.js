@@ -22,7 +22,7 @@ export default () => {
           <PostIcon />
         </Link>
       </div>
-      <div className="fixed z-50 bottom-8 w-[28vw] flex justify-between right-[5vw] ">
+      <div className="fixed z-50 bottom-8 w-[28vw] flex justify-between ml-[65vw] ">
         <Link to={"/activities"}>
           <LikeIcon />
         </Link>

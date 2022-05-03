@@ -4,8 +4,15 @@ import PostIcon_sm from "../../Assets/SVGs/PostIcon_sm";
 import { Link, useLocation } from "react-router-dom";
 
 export default ({ setIsAllMsgModalOpenOpen }) => {
+  const location = useLocation();
   return (
-    <div className="fixed top-0 z-50 bg-white pb-5 border-b border-[#7b83b3]">
+    <div
+      className={`${
+        location.pathname === "/profile"
+          ? "hidden"
+          : "fixed top-0 z-50 bg-white pb-5 border-b border-[#7b83b3]"
+      }`}
+    >
       <div className=" xs:hidden flex w-screen justify-around mt-5">
         <Link to="/newpost">
           <PostIcon_sm />

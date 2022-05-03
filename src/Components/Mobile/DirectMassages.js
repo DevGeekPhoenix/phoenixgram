@@ -68,7 +68,7 @@ export default ({ isDMOpen, setIsDMOpen, DMUserInfo }) => {
   return (
     <div
       {...handlers}
-      className={` h-screen bg-[#d5e4f9] top-0 z-[100] transition-all duration-500 overflow-y-auto fixed right-0 ${
+      className={` h-screen bg-[#d5e4f9] top-0 z-[100] transition-all duration-500 overflow-y-auto overflow-x-hidden fixed right-0 ${
         isDMOpen ? "w-screen " : " w-0"
       }`}
     >
@@ -94,19 +94,19 @@ export default ({ isDMOpen, setIsDMOpen, DMUserInfo }) => {
           return (
             <div
               key={i}
-              className={`w-screens flex  ${
+              className={`w-full flex  ${
                 msg.isMe ? "justify-end" : "justify-start"
               } `}
             >
-              <div
-                className={`w-fit h-fit p-3 my-3 rounded-t-full ${
+              <p
+                className={` h-fit max-w-[80vw] p-3 my-3 rounded-t-full ${
                   msg.isMe
                     ? "bg-[#5790df] text-[#fff] rounded-l-full mr-2 "
                     : "rounded-r-full bg-[#fff] ml-2"
                 }`}
               >
-                <p>{msg.text}</p>
-              </div>
+                {msg.text}
+              </p>
             </div>
           );
         })}

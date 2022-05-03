@@ -1,5 +1,9 @@
-import React from "react";
+import MobileProfile from "../Components/Mobile/MobileProfile";
 
-export default function Profile() {
-  return <div>Profile</div>;
-}
+export default () => {
+  return (
+    <div>
+      <MobileProfile />
+    </div>
+  );
+};

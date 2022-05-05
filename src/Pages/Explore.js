@@ -1,5 +1,9 @@
-import React from "react";
+import MobileExplore from "../Components/Mobile/MobileExplore";
 
-export default function Explore() {
-  return <div>Explore</div>;
-}
+export default () => {
+  return (
+    <div>
+      <MobileExplore />
+    </div>
+  );
+};

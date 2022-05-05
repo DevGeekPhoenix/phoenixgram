@@ -80,7 +80,7 @@ export default () => {
       <div className="bg-[#E6EEFA] pt-[92px] h-[88vh] divide-y divide-[#a1b8ed] overflow-y-auto">
         {activities.map((item, i) => {
           return (
-            <div className="flex w-full justify-between py-5 ">
+            <div key={i} className="flex w-full justify-between py-5 ">
               <p className="text-[18px] ml-3">{item.text}</p>
               <p className="xs mr-3">{item.time}</p>
             </div>

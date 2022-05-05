@@ -46,7 +46,7 @@ export default () => {
         return (
           <div
             key={i}
-            className="w-[95vw] h-fit pb-5 mb-8 rounded-[40px] bg-[#e6eefa]"
+            className="w-[95vw] h-fit pb-5 mb-8 rounded-[40px] bg-[#d9e6fb]"
           >
             <div>
               <div className="flex items-center p-3">

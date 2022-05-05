@@ -1,5 +1,8 @@
-import React from "react";
-
-export default function Activities() {
-  return <div>Activities</div>;
-}
+import MobileActivity from "../Components/Mobile/MobileActivities";
+export default () => {
+  return (
+    <div>
+      <MobileActivity />
+    </div>
+  );
+};

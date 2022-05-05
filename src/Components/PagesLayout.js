@@ -21,6 +21,10 @@ export default function PagesLayout() {
 
   return (
     <>
+      <div className="hidden xs:flex bg-[#E6EEFA] w-screen h-screen bold items-center justify-center text-center px-10 ">
+        This App Developed For Mobile Devices. Please Use a Mobile Device or
+        Screens That Have Less Than 475px Width .
+      </div>
       <Massages
         setIsAllMsgModalOpenOpen={setIsAllMsgModalOpenOpen}
         isAllMsgModalOpen={isAllMsgModalOpen}
